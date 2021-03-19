@@ -41,11 +41,11 @@ System.out.println("\nSavrsen broj je: ");
 ```
 ### <h4>Second version code  :fire:</h4>
 The expected time for calculation is approximate 14 sec.
-line for (i = 1, s = 0; i <= z/2; i++) check only positive numbers
+line for (i = 1, s = 0; i <= z/2; i++) check only even numbers
  ```java
   pocetak = System.currentTimeMillis();
 	for (z = x; z <= y; z++) {
-			for (i = 1, s = 0; i <= z/2; i++)	{  // i <= z/2 speed up code for 50%, that means only positive numbers will bee calculated
+			for (i = 1, s = 0; i <= z/2; i++)	{  // i <= z/2 speed up code for 50%, that means only even numbers will bee calculated
 				if (z % i == 0)	{
 					s = s + i;
 				}
