@@ -9,13 +9,13 @@ Project consist of three version, all versions are given to calculate the same r
 from version 1 to version 3 is speed up more than 70%.
 
 ## Demo	
-### Time to calculate 28 sec.
+#### Time to calculate 28 sec.
 ![](perfect_v1.jpg)
 
-### Time to calculate 14 sec.
+#### Time to calculate 14 sec.
 ![](perfect_v2.jpg)
   
-### Time to calculate 7 sec.
+#### Time to calculate 7 sec.
 ![](perfect_v3.jpg)
 
 ## Technologies
@@ -23,7 +23,7 @@ Project is created with:
 * JAVA	
   
 ## Code
-### <h4>First version code</h4> :star:
+### <h4>First version code  :star:</h4>
 The expected time for calculation is approximate 25 sec.
 ```java
 pocetak = System.currentTimeMillis(); //start time
@@ -39,7 +39,7 @@ System.out.println("\nSavrsen broj je: ");
 			}
 		}
 ```
-### <h4>Second version code</h4> :fire:
+### <h4>Second version code  :fire:</h4>
 The expected time for calculation is approximate 14 sec.
 line for (i = 1, s = 0; i <= z/2; i++) check only positive numbers
  ```java
@@ -55,7 +55,7 @@ line for (i = 1, s = 0; i <= z/2; i++) check only positive numbers
 			}
 		}
   ```
-  ### <h4>Third version code</h4> :collision:
+  ### <h4>Third version code :collision:</h4> 
   The expected time for calculation is approximate 7 sec.
   ```java
 pocetak = System.currentTimeMillis();
