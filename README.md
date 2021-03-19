@@ -9,12 +9,15 @@ Project consist of three version, all versions are given to calculate the same r
 from version 1 to version 3 is speed up more than 70%.
 
 ## Demo	
-![](calc.gif)
+### Time to calculate 28 sec.
+![](perfect_v1.jpg)
 
-Background color change
-
-![](calccol.jpg)
+### Time to calculate 14 sec.
+![](perfect_v2.jpg)
   
+### Time to calculate 7 sec.
+![](perfect_v3.jpg)
+
 ## Technologies
 Project is created with:
 * JAVA	
