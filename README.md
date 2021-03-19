@@ -58,7 +58,7 @@ Code for convert Fahrenheit to Celsius
 Project is: _in progress_
 
 ## Inspiration
-Euclid, the great Greek mathematician... :geek:
+Euclid, the great Greek mathematician... :100:
 
 ## Support
 Any recommendations or suggestion are welcome...
