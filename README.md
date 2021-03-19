@@ -5,6 +5,9 @@
 In number theory, a perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself.
 This is java project that calculate perfect numbers from given range of numbers. Purpose of project is learning to code.
 
+Project consist of three version, all versions are given to calculate the same range (3 to 100.000). By modifying code time to calculate numbers
+from version 1 to version 3 is speed up more than 70%.
+
 ## Demo	
 ![](calc.gif)
 
@@ -55,7 +58,7 @@ Code for convert Fahrenheit to Celsius
 Project is: _in progress_
 
 ## Inspiration
-Project is inspirated by my first calculator from 1979. "Digitron Buje DB-812" Made in Yugoslavia.
+Euclid, the great Greek mathematician... :geek:
 
 ## Support
 Any recommendations or suggestion are welcome...
