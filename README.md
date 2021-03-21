@@ -5,8 +5,8 @@
 In number theory, a perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself.
 This is a java project that calculate perfect numbers from given range of numbers. Purpose of project is learning to code.
 
-Project consist of three version, all versions are given to calculate the same range (3 to 100.000). By modifying code time to calculate numbers
-from version 1 to version 3 is speed up more than 70%.
+The project consist of three versions, all versions are given to calculate the same range (3 to 100.000). By modifying the code, time needed to calculate numbers
+from version 1 to version 3 is now 70% faster.
 
 ## Demo	
 #### Time to calculate 28 sec.
@@ -24,13 +24,13 @@ Project is created with:
   
 ## Code
 ### <h4>First version code  :star:</h4>
-The expected time for calculation is approximate 25 sec.
+The expected time for calculation is approximately 25 sec.
 ```java
 pocetak = System.currentTimeMillis(); //start time
 System.out.println("\nSavrsen broj je: ");
-	for (z = x; z <= y; z++) { //for all int between first and end int
-			for (i = 1, s = 0; i < z; i++)	{  //for all int from 1 and end int
-				if (z % i == 0)	{  //check is first int the division remainder
+	for (z = x; z <= y; z++) { //for all int between first and last int
+			for (i = 1, s = 0; i < z; i++)	{  //for all int from 1 and last int
+				if (z % i == 0)	{  //check if the first int is the division remainder
 					s = s + i;  //if yes, add i to s
 				}
 			}
@@ -45,7 +45,7 @@ line for (i = 1, s = 0; i <= z/2; i++) check only even numbers
  ```java
   pocetak = System.currentTimeMillis();
 	for (z = x; z <= y; z++) {
-			for (i = 1, s = 0; i <= z/2; i++)	{  // i <= z/2 speed up code for 50%, that means only even numbers will bee calculated
+			for (i = 1, s = 0; i <= z/2; i++)	{  // i <= z/2 speed up code for 50%, that means only even numbers will be calculated
 				if (z % i == 0)	{
 					s = s + i;
 				}
@@ -93,4 +93,4 @@ Project is: _in progress_
 Euclid, the great Greek mathematician... :100:
 
 ## Support
-Any recommendations or suggestion are welcome...
+Any recommendations or suggestions are welcome...
